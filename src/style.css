@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  font-size: xx-large;
+  margin-top: 15px;
+}
+#palo2 {
+  transform: rotate(180deg);
+  padding: 10px;
+  /* font-size: 30px; */
+}
+#palo1 {
+  padding: 10px;
+  /* font-size: 30px; */
+}
+.numero {
+  margin: auto;
+}
+.boton {
+  margin: auto;
+}
