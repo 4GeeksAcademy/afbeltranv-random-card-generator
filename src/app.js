@@ -35,3 +35,6 @@ window.onload = function() {
     paloAbj.style.color = "red";
   }
 };
+// const repartir = () => {
+//   console.log("Reparte");
+// };

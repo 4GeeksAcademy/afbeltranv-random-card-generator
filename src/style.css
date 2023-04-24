@@ -23,4 +23,6 @@ body {
 }
 .boton {
   margin: auto;
+  text-align: center;
+  padding: 10px;
 }
