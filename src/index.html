@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="card">
+    <div class="card" id="carta">
       <div class="palo" id="palo1"></div>
       <div class="numero"></div>
       <div class="palo" id="palo2"></div>
     </div>
     <div class="boton">
       <button id="boton">Repartir</button>
+    </div>
+    <div class="boton">
+      <span>Altura Carta</span>
+      <input type="number" id="altura" />
+      <span>Ancho Carta</span>
+      <input type="number" id="ancho" />
+      <button id="botonRedim">Redimensionar Cartas</button>
     </div>
     <script src="app.js"></script>
   </body>

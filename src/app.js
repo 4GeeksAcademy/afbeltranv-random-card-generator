@@ -42,3 +42,15 @@ window.onload = function() {
   repartir();
 };
 document.getElementById("boton").addEventListener("click", repartir);
+setInterval(repartir, 10000);
+
+function redimensionar() {
+  let valorAlto = document.getElementById("altura").value;
+  let valorAncho = document.getElementById("ancho").value;
+  // console.log("redimensión");
+  // console.log(document.getElementById("altura").value);
+  // console.log(document.getElementById("ancho").value);
+  document.getElementById("carta").style.height = valorAlto + "px";
+  document.getElementById("carta").style.width = valorAncho + "px";
+}
+document.getElementById("botonRedim").addEventListener("click", redimensionar);
